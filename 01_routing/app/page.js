@@ -4,8 +4,9 @@ export default function Home() {
   return (
     <>
       <h1>Home Page</h1>
-      <Link href='/about'>About</Link>
-      <Link href='/services'>Services</Link>
+      <p><Link href='/about'>About</Link></p>
+      <p><Link href='/services'>Services</Link></p>
+      <p><Link href='/blogs'>Blogs</Link></p>
     </>
   );
 }
