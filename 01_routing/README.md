@@ -5,8 +5,6 @@
 - Create a folder eg. about > Inside this folder create page.js
 - **To Use Link**: import Link from "next/link"; > `<Link href='/'>about</Link>` 
 
----
-
 ## Nested Routing
 
 - For Nested Routing create subfolder inside one folder.
@@ -24,3 +22,14 @@
 - For Nested Dynamic Routing create a folder inside dynamic folder.
 - eg. `[blogID]` > comments > `[commentID]`
 - Inside commentID can access its parant params.
+
+## Catch All Routes
+
+- **Required Catch Route**: create a folder named `[...filePath]` 
+- **Optional Catch Route**: create a folder named `files` > `[[...filePath]]`
+
+## Reusable Layouts
+
+- Create layout.js and pass the pages as children
+
+## Meta Data
