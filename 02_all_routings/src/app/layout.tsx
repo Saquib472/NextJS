@@ -13,7 +13,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <header style={{backgroundColor : "red", height : "50px", textAlign : "center"}}>Header</header>
         {children}
+        <footer style={{backgroundColor : "teal", height : "50px", textAlign : "center"}}>Footer</footer>
       </body>
     </html>
   );
